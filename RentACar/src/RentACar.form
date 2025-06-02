@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RentACar">
+  <grid id="27dc6" binding="qwerty" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="152" y="91" width="1023" height="628"/>
+    </constraints>
+    <properties>
+      <background color="-10724517"/>
+      <enabled value="true"/>
+      <font name="Barlow Condensed ExtraBold" size="22" style="2"/>
+      <preferredSize width="0" height="0"/>
+    </properties>
+    <border type="none" title-justification="2"/>
+    <children>
+      <component id="9cbee" class="javax.swing.JLabel" binding="labelHead">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <alignmentY value="0.5"/>
+          <background color="-1593078"/>
+          <font name="Algerian" size="36" style="1"/>
+          <foreground color="-1"/>
+          <text value="Rent A Car"/>
+        </properties>
+      </component>
+      <grid id="974fa" binding="carPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="333" height="-1"/>
+            <preferred-size width="333" height="-1"/>
+            <maximum-size width="333" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5995236"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="50db3" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="100" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-9145743"/>
+              <font style="1"/>
+              <foreground color="-1"/>
+              <toolTipText value="Marka automobila"/>
+            </properties>
+          </component>
+          <component id="14569" class="javax.swing.JComboBox" binding="comboBox2">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="100" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-9145743"/>
+              <font style="1"/>
+              <foreground color="-1"/>
+              <toolTipText value="Model automobila"/>
+            </properties>
+          </component>
+          <component id="83654" class="javax.swing.JComboBox" binding="comboBox3">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="100" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-9145743"/>
+              <font style="1"/>
+              <foreground color="-1"/>
+              <toolTipText value="Godina proizvodnje"/>
+            </properties>
+          </component>
+          <component id="a5259" class="javax.swing.JLabel" binding="labelPrice">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="true"/>
+              <font name="Berlin Sans FB Demi" size="14"/>
+              <foreground color="-527899"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d43e3" binding="unAvailableDatesPanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="333" height="-1"/>
+            <preferred-size width="333" height="-1"/>
+            <maximum-size width="333" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5995236"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="bf023" class="javax.swing.JLabel" binding="labelDays">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="16"/>
+              <foreground color="-527899"/>
+              <labelFor value="6bf8c"/>
+              <text value="Unesite broj dana koji želite"/>
+            </properties>
+          </component>
+          <component id="6bf8c" class="javax.swing.JTextField" binding="textDays">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="50" height="-1"/>
+                <preferred-size width="50" height="-1"/>
+                <maximum-size width="50" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-9145743"/>
+              <font style="1"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="74288" class="javax.swing.JTextArea" binding="textDates">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="16"/>
+              <foreground color="-527899"/>
+              <opaque value="false"/>
+              <rows value="5"/>
+            </properties>
+          </component>
+          <vspacer id="b8eb8">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="b8769">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="f7ac8">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+      <grid id="eeaf4" binding="rentPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="2" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="333" height="-1"/>
+            <preferred-size width="333" height="-1"/>
+            <maximum-size width="333" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-5995236"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="147d9" class="javax.swing.JLabel" binding="dateOfLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Berlin Sans FB Demi" size="16"/>
+              <foreground color="-527899"/>
+              <labelFor value="fb2a4"/>
+              <text value="Unesite datum pocetka iznajmljivanja: "/>
+            </properties>
+          </component>
+          <component id="fb2a4" class="javax.swing.JTextField" binding="dateOfText">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="200" height="-1"/>
+                <preferred-size width="200" height="-1"/>
+                <maximum-size width="200" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-9145743"/>
+              <font style="1"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="69624" class="javax.swing.JButton" binding="rentButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="200" height="-1"/>
+                <preferred-size width="200" height="-1"/>
+                <maximum-size width="200" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-12213228"/>
+              <font name="Arial" size="14" style="1"/>
+              <foreground color="-1"/>
+              <text value="Rezerviši"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="49d43" class="javax.swing.JButton" binding="deleteButton">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-7532786"/>
+          <borderPainted value="true"/>
+          <contentAreaFilled value="true"/>
+          <defaultCapable value="true"/>
+          <font name="Arial" size="14" style="1"/>
+          <foreground color="-1"/>
+          <text value="Obriši"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
