@@ -41,7 +41,7 @@ The app will display messages using a custom message box (`MessageBox.java`).
 
 ## Screenshots
 
-[Rent a car](./screenshots/RentACar.JPG)
+![Rent a car](./screenshots/RentACar.JPG)
 
 ## About Me
 
