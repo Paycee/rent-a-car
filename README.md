@@ -41,7 +41,7 @@ The app will display messages using a custom message box (`MessageBox.java`).
 
 ## Screenshots
 
-🖼️ _You can add GUI screenshots here later to show how the interface looks._
+[Rent a car](./screenshots/RentACar.JPG)
 
 ## About Me
 
@@ -51,7 +51,8 @@ Created by Pavle Milenović — passionate about Java development and building p
 
 - GitHub: [https://github.com/Paycee](https://github.com/Paycee)  
 - Email: pavle.milenovic@gmail.com  
-- Upwork & Freelancer profiles available upon request
+- [Upwork](https://www.upwork.com/freelancers/~01c2e1c44b41bb7941?mp_source=share)
+- [Freelancer](https://www.freelancer.com/u/pavlemilenovic?frm=pavlemilenovic&sb=t)
 
 ---
 
